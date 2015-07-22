@@ -803,6 +803,10 @@ input[type="search"] {
     margin-bottom: 10px;
 }
 
+.patent-list-details {
+    width: 88% !important;
+    display: block !important;
+}
 
 .patent-container {
     background-color: #fff !important;
@@ -816,6 +820,7 @@ input[type="search"] {
     margin-bottom: 0px !important;
     font-size: 1.5em !important;
     display: inline-block !important;
+    text-transform: uppercase !important;
 }
 
 .patent-description {
