@@ -292,7 +292,7 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 -50px;
 }
 
 /*
@@ -503,10 +503,26 @@ table {
 html {overflow-y: scroll; overflow-x: hidden;}
 body {font-family: 'Oswald', sans-serif; background:#f0eeed; color: #676767;}
 
-.wrapper {width: 980px; margin: 0 auto;}
+.wrapper {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .header:after {content:"";height:0;display:block;visibility:hidden;clear:both;}
 .header {background-image: url('../img/byu-header-bg.svg'); border-bottom: 3px solid #336699;}
-.header .branding-title {float: left; margin: 7.5px 0 0 0px; font: 0/0 serif; text-shadow: none; color: transparent; width:255px;height:77px;background:url(../img/logo.png) 0 14px no-repeat;padding: 14px 0;}
+.header .branding-title {
+    float: left; margin: 7.5px 0 0 0px;
+    position: absolute;
+    left: 30px;
+    font: 0/0 serif; 
+    text-shadow: none; 
+    color: transparent; 
+    width:255px;
+    height:77px;
+    background:url(../img/logo.png) 0 14px no-repeat;
+    padding: 14px 0;
+}
 .header .branding-title a {display: block; height: 77px; width: 255px;}
 .header .nav {float: right; top: 0; right: 0; margin: 0; position: relative; left: 15px; z-index: 99999999;}
 .header .nav li {display: inline-block; margin: 0; list-style: none;}
@@ -607,7 +623,7 @@ body {font-family: 'Oswald', sans-serif; background:#f0eeed; color: #676767;}
 .section.page .shirt-details h1 {
     text-align: left;
 }
-.section.page p {width: 375px; margin-left: auto; margin-right: auto; }
+.section.page p {width: 50%; margin-left: auto; margin-right: auto; }
 .section.page .shirt-details h1 .price {color: #9d9f4e; padding-right: 10px; font-size: 34px;}
 .section.shirts {padding-bottom: 42px; background: #fff;}
 .section.shirts h2 {
@@ -653,8 +669,8 @@ body {font-family: 'Oswald', sans-serif; background:#f0eeed; color: #676767;}
 }
 .section.shirts ul.products li img {
 
-          width: 190px;
-      height: 190px;
+    width: 190px;
+    height: 190px;
 
 
     }
@@ -667,7 +683,7 @@ body {font-family: 'Oswald', sans-serif; background:#f0eeed; color: #676767;}
 
 .shirt-picture {
     float: left;
-    width: 460px;
+    width: 40%;
     text-align: center;
     border: 1px solid #d9d9d9;
     padding: 14px;
@@ -711,7 +727,7 @@ form input[type="submit"] {
     width: 375px;
     text-align: center;
     border: 1px solid #8e8e46;
-    background: #9c9f4e;
+    background: #555;
     color: #FFF;
     -webkit-border-radius: 2px;
     border-radius: 2px;    
@@ -756,12 +772,124 @@ form input[type="submit"] {
 
 
 
-
-
+input[type="search"] {
+    margin: 10 auto !important;
+}
+ 
 .bounding-box {
   background-image: url(...);
   background-repeat: no-repeat;
   background-size: contain;
   display: inline;
+}
+
+
+
+.search-container {
+    margin-bottom: 10px;
+}
+
+.patent-filter {
+    background-color: #ddd;
+    position: relative;
+    left: -90px;
+    width: 20%;
+}
+
+.patent-list {
+    background-color: #f0eeed !important;
+    border: 1px solid #e3e1e0;
+    padding: 14px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+
+.patent-container {
+    background-color: #fff !important;
+}
+
+.patent-name {
+    color: #333 !important;
+    text-align: left !important;
+    margin-left: 5px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 1.5em !important;
+    display: inline-block !important;
+}
+
+.patent-description {
+    text-align: left !important;
+    width: 100% !important;
+    margin-top: 5px !important;
+    padding: 0px 10px 10px 10px !important;
+    margin-bottom: 0px !important;
+}
+
+.patent-info {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-input {
 
 }
+
+.search-patents-icon {
+    background-color: #ddd;
+    padding: 9px 10px 11px 10px; 
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px; 
+}
+
+.search-patents-input {
+    height: 30px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 2px solid #ddd;
+    display: inline-block;
+
+}
+
+
+.select-style {
+  padding: 2.7px;
+  display: inline-block;
+  
+  margin-top: 10px ;
+  border: 2px solid #ddd;
+  width: 190px;
+  border-radius: 3px;
+  background-color: #fff;
+  background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  margin-right: 40px !important;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+
+address {
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+
+}
+
+#footer-social {
+    display: inline-block;
+}
+

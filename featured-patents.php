@@ -2,26 +2,15 @@
 $pageTitle = "BYU Tech Transfer";
 $section = "home";
 include('inc/header.php'); ?>
-		<div class="section banner">
+
 
 			<div class="wrapper">
 
-				
-				<div class="button">
-					<a href="shirts.php">
-						<h2>Welcome to BYU Tech Transfer</h2>
-						<p>We create and liscence technologies in hopes of bettering mannkind</p>
-					</a>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="section shirts latest">
-
-			<div class="wrapper">
+				<div class="section shirts latest">
 
 				<h2>BYU&rsquo;s Featured Patents</h2>
+
+				<div class="breadcrumb"><a href="patents.php">Patents</a> &gt; <a href="featured-patents.php">Featured-Patents</a> &gt; <?php echo $product["name"]; ?></div>
 
 				<?php include("inc/featured-products.php"); ?>
 
@@ -35,5 +24,7 @@ include('inc/header.php'); ?>
 			</div>
 
 		</div>
+		</div>
+
 
 <?php include('inc/footer.php') ?>

@@ -7,7 +7,7 @@ if (isset($_GET["id"])) {
 	}
 }
 if (!isset($product)) {
-	header("Location: shirts.php");
+	header("Location: patents.php");
 	exit();
 }
 
@@ -19,7 +19,7 @@ include("inc/header.php"); ?>
 
 			<div class="wrapper">
 
-				<div class="breadcrumb"><a href="shirts.php">Patents</a> &gt; <?php echo $product["name"]; ?></div>
+				<div class="breadcrumb"><a href="patents.php">Patents</a> &gt; <?php echo $product["name"]; ?></div>
 
 				<div class="shirt-picture">
 					<span>

@@ -4,12 +4,20 @@
 
 		<div class="wrapper">
 
-			<ul>		
-				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
-				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
+			<ul id='footer-social'>		
+				<li><a href="http://twitter.com">Twitter</a></li>
+				<li><a href="https://www.facebook.com">Facebook</a></li>
 			</ul>
 
-			<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p>
+			<address>
+			* All patents develpoed and engineered by Brigham Young University.<br> 
+			Visit <a href="http://byu.edu">byu.edu</a><br>
+			byupatent@gmail.com<br>
+			Provo, UT<br>
+			USA
+			</address>
+
+		<!-- 	<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p> -->
 
 		</div>
 	
