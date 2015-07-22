@@ -27,8 +27,8 @@
 			<ul class="nav">
 				<li class="shirts <?php if ($section == "patents") { echo "on"; } ?>"><a href="patents.php">Patents</a></li>
 				<li class="contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
-				<li class="resources <?php if ($section == "resources") { echo "on"; } ?>"><a href="resources.php">Resources</a></li>
-				<li class="about <?php if ($section == "about") { echo "on"; } ?>"><a href="about.php">About</a></li>
+<!-- 				<li class="resources <?php if ($section == "resources") { echo "on"; } ?>"><a href="resources.php">Resources</a></li>
+				<li class="about <?php if ($section == "about") { echo "on"; } ?>"><a href="about.php">About</a></li> -->
 				<!-- <li class="cart"><a target="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;business=Q6NFNPFRBWR8S&amp;display=1">Shopping Cart</a></li> -->
 			</ul>
 

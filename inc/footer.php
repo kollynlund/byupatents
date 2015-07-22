@@ -1,25 +1,39 @@
 	</div>
 
+	<div class="footer-wrapper">
+
 	<div class="footer">
 
-		<div class="wrapper">
+	
 
-			<ul id='footer-social'>		
-				<li><a href="http://twitter.com">Twitter</a></li>
-				<li><a href="https://www.facebook.com">Facebook</a></li>
-			</ul>
 
-			<address>
-			* All patents develpoed and engineered by Brigham Young University.<br> 
-			Visit <a href="http://byu.edu">byu.edu</a><br>
-			byupatent@gmail.com<br>
-			Provo, UT<br>
-			USA
-			</address>
+			<div class="social-column footer-column">
+				<h3>Legal</h3>
+				<p>All technologies is invented at BYU</p>
+			</div>
+<!-- 
+			<div class="contact-column footer-column">
+				<h3>Address</h3>
+				<p>Visit <a href="http://byu.edu">byu.edu</a></p>
+				<p>byupatent@gmail.com</p>
+				<p>Provo, UT</p>
+			</div> -->
 
-		<!-- 	<p>&copy;<?php echo date('Y'); ?> Shirts 4 Mike</p> -->
 
-		</div>
+			<div class="resources-column footer-column">
+				<h3>Address</h3>
+				<p>Provo, UT</p>
+			</div>
+
+			<div class="resources-column footer-column">
+				<h3>Resources</h3>
+				<p>pdf</p>
+			</div>
+
+</div>
+
+
+
 	
 	</div>
 

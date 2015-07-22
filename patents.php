@@ -9,7 +9,7 @@ include('inc/header.php'); ?>
 			<div class="wrapper">
 
 				<h1>BYU&rsquo;s Full List of Patents</h1>
-				<p>Here is BYU's full list of available patents. Click on any patent for more info. Look at our <a href="featured-patents.php">featured patents</a> or just browse the list.</p>
+				<p>Here is BYU's list of available patents. Click on any patent for more info. Look at our <a href="featured-patents.php">featured patents</a> or just browse the list.</p>
 			
 
 
