@@ -5,14 +5,17 @@ function get_list_view_html($product_id, $product) {
     $output = "";
 
 
-    $output = $output . "<li " . "class='patent-list-details'" . '>';
-    $output = $output . '<a href="shirt.php?id=' . $product_id . '">';
-//    $output = $output . '<img src="' . $product["img"] . '" alt="' . $product["name"] . '">';
-    $output = $output . "<p " . "class='patent-name'" . ">" . $product["name"] . "</p>";
+
+    $output = $output . '<a ' . "class='patent-info'" . 'href="shirt.php?id=' . $product_id . '">';
+    $output = $output . "<div " . "class='patent-list'" . ">";
+    $output = $output . "<div " . "class='patent-container'" . ">";
+    $output = $output . "<h2 " . "class='patent-name'" . ">" . $product["name"] . "</h2>";
     $output = $output . "<span>" . " #: " . $product["patent-#"] . "</span>";
-    $output = $output . "<p>" . "* " . $product["description"] . "</p>";
+    $output = $output . "<p " . "class='patent-description'" . ">" . "* " . $product["description"] . "</p>";
+    $output = $output . "</div>";
+    $output = $output . "</div>";
     $output = $output . "</a>";
-    $output = $output . "</li>";
+
 
 
     return $output;

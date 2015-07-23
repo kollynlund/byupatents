@@ -9,7 +9,7 @@
 
 			<div class="social-column footer-column">
 				<h3>Legal</h3>
-				<p>All technologies is invented at BYU</p>
+				<p>All technologies are invented at BYU</p>
 			</div>
 <!-- 
 			<div class="contact-column footer-column">

@@ -25,7 +25,7 @@ include('inc/header.php'); ?>
 
 				<?php include("inc/featured-products.php"); ?>
 
-				<ul class="products">
+				<ul class="products featured-container">
 					<?php foreach($products as $product_id => $product) { 
 							echo get_list_view_html($product_id,$product);
 						}

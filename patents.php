@@ -29,7 +29,7 @@ include('inc/header.php'); ?>
 
 </div>
 
-			<a class="patent-info" href="#">
+<!-- 			<a class="patent-info" href="#">
 				<div class="patent-list">
 					<div class="patent-container">
 						<h2 class="patent-name">Isotruss </h2> <span> #: 7,342,333</span>
@@ -54,7 +54,7 @@ include('inc/header.php'); ?>
 						<p class="patent-description">* A new way to make cyour search engine for reliable.</p>
 				    </div>
 			    </div>
-			</a>
+			</a> -->
 
 
 
