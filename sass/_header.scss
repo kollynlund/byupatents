@@ -8,7 +8,8 @@
 
 .header {
     background-image: url('../img/byu-header-bg.svg'); 
-    border-bottom: 3px solid #336699;
+    border-bottom: 2px solid #ddd;
+
 }
 
 .header .branding-title {
@@ -16,8 +17,8 @@
     margin: 5px 0 0 0px;
     position: absolute;
     left: 30px;
-    width:255px;
-    height:77px;
+    width: 255px;
+    height: 77px;
     background:url(../img/logo.png) 0 14px no-repeat;
     padding: 14px 0;
 }
@@ -53,11 +54,6 @@
 
 }
 
-.header .nav li.cart {
-    margin-left: 64px; 
-    border: 0 solid #f16702; 
-    border-width: 0 8px;
-}
 
 .header .nav li a {
     color: white;
@@ -72,9 +68,11 @@
     white-space: nowrap; 
     @media (max-width: 670px) {
         width: 100vw;
+        background-color: #555;
         border-top: 2px solid #ddd;
         margin-left: 0px;
-        line-height: 60px;
+        line-height: 45px;
+        padding-top: 0px;
 
     }
 
@@ -149,7 +147,9 @@
     -webkit-border-radius: 0px;
     border-radius: 0px;
     border: 3px solid #029af1;
-    background-color: #eee;
+    border: 2px solid #ddd;
+
+    background-color: #fff;
     z-index: 0;
     @media (max-width: 577px) {
         left: 0px;

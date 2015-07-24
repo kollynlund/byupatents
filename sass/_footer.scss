@@ -11,19 +11,25 @@
 .footer-column {
     width: 30%;
     margin-top: 0px;
-    background-color: #ddd;
-    height: 70px;
+    color: #eee;
+    height: 100px;
     display: inline-block;
     margin: auto;
 }
 
 .footer {
-    background: #f0eeed;
+    background: #0A497F;
+    background-image: url("../img/byu-header-bg.svg");
     padding: 20px 0;
     font-size: 12px;
     color: #a5a5a5;
 }
-.footer ul {margin: 0; padding: 0; float: left;}
+.footer ul {
+  margin: 0;
+  padding: 0; 
+  float: left;
+}
+
 .footer ul li {
     margin: 0;
     padding: 0;
@@ -31,10 +37,46 @@
     display: inline-block;
     text-transform: lowercase;
 }
-.footer ul li:after {content:" | "}
-.footer ul li:last-child:after {content:"";}
-.footer p {margin: 0; text-align: right; padding-right: 3px;}
-.footer a {text-decoration: none; color: #539def; margin: 0 10px;}
-.footer li:first-child a {margin-left: 4px;}
-.footer a:hover, .footer a:active {text-decoration: underline;}
+
+.footer ul li:after {
+  content:" | "
+}
+
+.footer ul li:last-child:after {
+  content:"";
+}
+
+.footer p {
+  margin: 0;
+  text-align: left; 
+  padding-right: 3px;
+}
+
+.footer-title {
+  margin: 3px 10px 5px 5px;
+  font-weight: 600;
+  border-bottom: 1px solid #aaa
+
+}
+
+.footer-column p {
+  margin-left: 5px;
+}
+
+.footer-column li {
+  margin-left: 5px;
+}
+
+.footer a {
+  color: #CCB500; 
+  margin: 0 10px;
+}
+
+.footer li:first-child a {
+  margin-left: 4px;
+}
+
+.footer a:hover, .footer a:active {
+  text-decoration: underline;
+}
 

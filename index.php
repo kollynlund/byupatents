@@ -8,7 +8,7 @@ include('inc/header.php'); ?>
 
 				
 				<div class="button">
-					<a href="shirts.php">
+					<a href="patents.php">
 						<h2>Welcome to BYU Tech Transfer</h2>
 						<p>We create and liscence technologies in hopes of bettering mannkind</p>
 					</a>
@@ -21,7 +21,11 @@ include('inc/header.php'); ?>
 
 			<div class="wrapper">
 
-				<h2>BYU&rsquo;s Featured Patents</h2>
+				<h2 class="home-title">BYU&rsquo;s Featured Patents</h2>
+
+			</div>
+
+			<div class="feature-wrapper">
 
 				<?php include("inc/featured-products.php"); ?>
 
