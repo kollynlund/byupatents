@@ -70,6 +70,9 @@
 .footer a {
   color: #CCB500; 
   margin: 0 10px;
+  &:hover {
+    color: #FFE961;
+  }
 }
 
 .footer li:first-child a {

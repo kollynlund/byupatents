@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/featured-patents-home.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/featured-patents-home.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/featured-patents.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -56,16 +65,14 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/banner-background.jpg": {
-		"fileType": 16384,
+	"\/featured-technologies.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 66831,
-		"inputAbbreviatedPath": "\/img\/banner-background.jpg",
-		"outputAbbreviatedPath": "\/img\/banner-background.jpg",
+		"inputAbbreviatedPath": "\/featured-technologies.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/img\/banner-link-arrow.png": {
 		"fileType": 32768,
@@ -74,17 +81,6 @@
 		"initialSize": 1303,
 		"inputAbbreviatedPath": "\/img\/banner-link-arrow.png",
 		"outputAbbreviatedPath": "\/img\/banner-link-arrow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/branding-title.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3674,
-		"inputAbbreviatedPath": "\/img\/branding-title.png",
-		"outputAbbreviatedPath": "\/img\/branding-title.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -100,24 +96,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-paypal-classic.png": {
-		"fileType": 32768,
+	"\/img\/ip\/ip-101.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3856,
-		"inputAbbreviatedPath": "\/img\/logo-paypal-classic.png",
-		"outputAbbreviatedPath": "\/img\/logo-paypal-classic.png",
+		"initialSize": 99311,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-101.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-101.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-paypal.png": {
-		"fileType": 32768,
+	"\/img\/ip\/ip-102.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2816,
-		"inputAbbreviatedPath": "\/img\/logo-paypal.png",
-		"outputAbbreviatedPath": "\/img\/logo-paypal.png",
+		"initialSize": 29589,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-102.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-102.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ip\/ip-103.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253768,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-103.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-103.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ip\/ip-104.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26306,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-104.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-104.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ip\/ip-105.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10827,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-105.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-105.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ip\/ip-106.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21522,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-106.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-106.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ip\/ip-107.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21516,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-107.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-107.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ip\/ip-108.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127670,
+		"inputAbbreviatedPath": "\/img\/ip\/ip-108.jpg",
+		"outputAbbreviatedPath": "\/img\/ip\/ip-108.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -133,28 +195,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/mike-the-frog.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 172429,
-		"inputAbbreviatedPath": "\/img\/mike-the-frog.png",
-		"outputAbbreviatedPath": "\/img\/mike-the-frog.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/nav-sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3862,
-		"inputAbbreviatedPath": "\/img\/nav-sprite.png",
-		"outputAbbreviatedPath": "\/img\/nav-sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/search.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -166,99 +206,29 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/shirts\/shirt-101.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 99311,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-101.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-101.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-102.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29589,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-102.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-102.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-103.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 253768,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-103.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-103.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-104.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26306,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-104.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-104.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-105.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10827,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-105.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-105.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-106.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21522,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-106.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-106.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-107.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21516,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-107.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-107.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shirts\/shirt-108.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127670,
-		"inputAbbreviatedPath": "\/img\/shirts\/shirt-108.jpg",
-		"outputAbbreviatedPath": "\/img\/shirts\/shirt-108.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/inc\/featured-products.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/inc\/featured-products.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/inc\/featured-technologies-home.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/featured-technologies-home.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/inc\/featured-technologies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/inc\/featured-technologies.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -328,20 +298,20 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/patent.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/patent.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/patents.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/patents.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/receipt.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/receipt.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -453,11 +423,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/shirt.php": {
+	"\/technologies.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/shirt.php",
+		"inputAbbreviatedPath": "\/technologies.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

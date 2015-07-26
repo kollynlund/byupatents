@@ -72,7 +72,7 @@ include('inc/header.php'); ?>
                 <p>Thanks for the email! We&rsquo;ll be in touch shortly!</p>
             <?php } else { ?>
 
-                <p>I&rsquo;d love to hear from you! Complete the form to send me an email.</p>
+                <p class="contact-text">We&rsquo;d love to hear from you! Complete the form to send me an email.</p>
 
                 <form method="post" action="contact.php">
 

@@ -40,8 +40,8 @@ form td textarea {
     width: 100%;
 }
 
-form input[type="submit"] {
-    width: 375px;
+input[type="submit"], .ip-contact {
+    width: 100%;
     text-align: center;
     border: 1px solid #8e8e46;
     background: #555;
@@ -55,3 +55,30 @@ form input[type="submit"] {
         width: 340px;
     }
 }
+
+
+.ip-contact {
+    text-align: center;
+    border: 1px solid #8e8e46;
+    background: #555;
+    color: #FFF !important;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+    margin-top: 1em;
+    @media (max-width: 400px) {
+        width: 340px;
+    }
+    width: 30% !important;
+    padding: 10px;
+    float: right;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+}
+
+

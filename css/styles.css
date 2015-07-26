@@ -515,7 +515,7 @@ form td textarea {
   width: 100%; }
 
 form input[type="submit"] {
-  width: 375px;
+  width: 100%;
   text-align: center;
   border: 1px solid #8e8e46;
   background: #555;
@@ -618,7 +618,13 @@ body {
   margin: 0 10px 17px 0px; }
 
 .home-title {
-  color: #333 !important; }
+  color: #333 !important;
+  margin-bottom: 0px; }
+
+.home-title ~ p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: .9em; }
 
 .feature-wrapper {
   width: 95%;
@@ -669,10 +675,10 @@ body {
   padding: 36px 0 61px; }
 
 .shirt-picture img {
-  width: 292px; }
+  width: 95%; }
 
 .shirt-details {
-  width: 460px;
+  width: 40%;
   float: right; }
 
 .breadcrumb {
@@ -778,3 +784,9 @@ input[type="search"] {
 
 .select-style select:focus {
   outline: none; }
+
+.ip-title {
+  display: inline-block; }
+
+.ip-title ~ span {
+  margin-left: 0.5eml; }

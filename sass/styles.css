@@ -304,7 +304,6 @@ table {
   line-height: 95px;
   padding: 10px 0 0;
   margin: 0 0 0 50px;
-  width: 90px;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap; }
@@ -472,6 +471,8 @@ table {
 .footer a {
   color: #CCB500;
   margin: 0 10px; }
+  .footer a:hover {
+    color: #FFE961; }
 
 .footer li:first-child a {
   margin-left: 4px; }
@@ -514,8 +515,8 @@ form td input,
 form td textarea {
   width: 100%; }
 
-form input[type="submit"] {
-  width: 375px;
+input[type="submit"], .ip-contact {
+  width: 100%;
   text-align: center;
   border: 1px solid #8e8e46;
   background: #555;
@@ -526,18 +527,51 @@ form input[type="submit"] {
   text-transform: uppercase;
   padding: 14px; }
   @media (max-width: 400px) {
-    form input[type="submit"] {
+    input[type="submit"], .ip-contact {
       width: 340px; } }
+
+.ip-contact {
+  text-align: center;
+  border: 1px solid #8e8e46;
+  background: #555;
+  color: #FFF !important;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 14px;
+  margin-top: 1em;
+  width: 30% !important;
+  padding: 10px;
+  float: right; }
+  @media (max-width: 400px) {
+    .ip-contact {
+      width: 340px; } }
+  .ip-contact a {
+    color: #fff;
+    text-decoration: none; }
 
 html {
   overflow-y: scroll;
   overflow-x: hidden; }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: Arial, 'Oswald', sans-serif;
   background: #f0eeed;
   color: #676767;
   background-image: url("../img/byu-header-bg.svg"); }
+
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
 
 .wrapper {
   width: 80%;
@@ -618,7 +652,13 @@ body {
   margin: 0 10px 17px 0px; }
 
 .home-title {
-  color: #333 !important; }
+  color: #333 !important;
+  margin-bottom: 0px; }
+
+.home-title ~ p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: .9em; }
 
 .feature-wrapper {
   width: 95%;
@@ -655,8 +695,9 @@ body {
   width: auto; }
 
 .shirt-picture {
-  float: left;
-  width: 40%;
+  width: 80%;
+  margin-left: auto;
+  margin-top: 1.7em;
   text-align: center;
   border: 1px solid #d9d9d9;
   padding: 14px;
@@ -668,12 +709,17 @@ body {
   width: 100%;
   padding: 36px 0 61px; }
 
+.ip-page span {
+  background: white;
+  display: block;
+  width: 100%;
+  padding: 0px; }
+
 .shirt-picture img {
-  width: 292px; }
+  width: 100%; }
 
 .shirt-details {
-  width: 460px;
-  float: right; }
+  width: 100%; }
 
 .breadcrumb {
   font-family: Helvetica, Arial, sans-serif;
@@ -688,7 +734,8 @@ body {
   font-weight: bold; }
 
 input[type="search"] {
-  margin: 10 auto !important; }
+  margin: 10 auto !important;
+  width: 260px; }
 
 .bounding-box {
   background-image: url(...);
@@ -745,7 +792,9 @@ input[type="search"] {
   background-color: #ddd;
   padding: 9px 10px 11px 10px;
   border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px; }
+  border-bottom-right-radius: 3px;
+  color: #333;
+  margin-left: -4px; }
 
 .search-patents-input {
   height: 30px;
@@ -778,5 +827,33 @@ input[type="search"] {
 
 .select-style select:focus {
   outline: none; }
+
+.ip-title {
+  display: inline-block; }
+
+.ip-title ~ span {
+  margin-left: .5em; }
+
+.ip-description {
+  margin-left: .5em;
+  line-height: 1.2em; }
+
+.ip-link {
+  display: block; }
+
+.links-container {
+  width: 49%;
+  display: inline-block; }
+
+.media-container {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top; }
+
+.links-txt {
+  color: #000;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  vertical-align: top; }
 
 /*# sourceMappingURL=styles.css.map */
