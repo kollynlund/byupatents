@@ -1,11 +1,9 @@
 	</div>
 
+
 	<div class="footer-wrapper">
 
 	<div class="footer">
-
-	
-
 
 			<div class="social-column footer-column">
 				<h3 class="footer-title">Legal</h3>
@@ -30,6 +28,10 @@
 
 	
 	</div>
+				<div id="copyright">
+				<p><a href="http://techtransfer.byu.edu/">BYU Technology Transfer Office</a></p>
+				<p><a href="http://home.byu.edu/home/copyright">Copyright &#169 2015, All Rights Reserved</a></p>
+			</div>
 
 </body>
 </html>
