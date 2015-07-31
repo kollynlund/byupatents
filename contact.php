@@ -1,8 +1,10 @@
 <?php 
 
+if (isset($_GET["id"])) {
+    $technology_id = $_GET["id"];
+}
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include_once('inc/phpmailer/class.phpmailer.php');
-
     require_once('inc/phpmailer/class.smtp.php');
 
 
@@ -44,9 +46,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $mail->Host = 'localhost';
     $mail->SetFrom($email, $name);
-    $address = "carter.james.smith.12@gmail.com";
-    $mail->AddAddress($address, "Shirts 4 Mike");
-    $mail->Subject    = "Shirts 4 Mike Contact Form Submission | " . $name;
+    $address = "paskclothing@gmail.com";
+    $mail->AddAddress($address, "Technology request");
+    $mail->Subject    = "Request about technology ". $technology_id . "by" . $name;
     $mail->MsgHTML($email_body);
 
     if(!$mail->Send()) {
@@ -107,7 +109,7 @@ include('inc/header.php'); ?>
                             </th>
                             <td>
                                 <input type="text" name="address" id="address">
-                                <p>Humans (and frogs): please leave this field blank.</p>
+                                <p>please leave this field blank.</p>
                             </td>
                         </tr>                   
                     </table>

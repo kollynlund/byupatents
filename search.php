@@ -14,8 +14,8 @@ $search_term = "";
 if (isset($_GET["s"])) {
 	$search_term = trim($_GET["s"]);
 	if ($search_term != "") {
-		require_once("inc/products.php");
-		$products = get_products_search($search_term);
+		include("inc/technologies-data.php");
+		$technologies = get_products_search($search_term);
 	}
 }
 
@@ -29,7 +29,7 @@ include("inc/header.php"); ?>
 
 			<h1>Search</h1>
 
-			<form method="get" action="./">
+			<form method="get">
 				<?php // pre-populate the current search term in the search box; ?>
 				<?php // if a search hasn't been performed, then that search term ?>
 				<?php // will be blank and the box will look empty ?>

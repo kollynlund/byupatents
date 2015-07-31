@@ -25,7 +25,7 @@ include("inc/header.php"); ?>
 					<div class="group">
 						<h1 class="ip-title"><?php echo $technology["name"];?></h1>
 						<span>ID# <?php echo $technology["id#"];?></span>
-						<button class="ip-contact"><a href="contact.php">Contact</a></button>
+						<button class="ip-contact"><a href="contact.php?id=<?php echo $technology["id#"];?>">Contact</a></button>
 					</div>
 
 					<p class="ip-description"><?php echo $technology["long-description"]; ?></p>
