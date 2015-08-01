@@ -5,6 +5,7 @@
 @import 'about';
 @import 'resources';
 
+
 @import url(http://fonts.googleapis.com/css?family=PT+Serif);
 
 html {overflow-y: scroll; overflow-x: hidden;}
@@ -361,7 +362,6 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
 
 #search-go {
     width: 33%;
-    float: right;
     text-align: center;
     border: 1px solid #eee;
     background: #666;
@@ -373,7 +373,7 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
     padding: 10px;
     @media (max-width: 760px) {
         width: 100%;
-        display: block;
+        float: none;
         margin: .5em 0 .5em 0;
     }
 }
