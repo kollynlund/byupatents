@@ -23,28 +23,33 @@ include("inc/header.php"); ?>
 
 				<div class="shirt-details">
 					<div class="group">
-						<h1 class="ip-title"><?php echo $technology["name"];?></h1>
-						<span>ID# <?php echo $technology["id#"];?></span>
-						<button class="ip-contact"><a href="contact.php?id=<?php echo $technology["id#"];?>">Contact</a></button>
+						<h1 id="ip-title"><?php echo $technology["name"];?></h1>
+						<span id="ip-id">ID: <?php echo $technology["id#"];?></span>
+						
 					</div>
 
 					<p class="ip-description"><?php echo $technology["long-description"]; ?></p>
 
 
+
+
 				<div class="links-container">
-					<p class="links-txt">Links</p>
+					<p class="links-txt">Links and Resources</p>
 					<?php foreach($technology["links"] as $link) { ?>
 					<li><a class="ip-link" href="<?php echo $link; ?>"><?php echo $link; ?> </a></li>
 					<?php } ?>
 				</div>
-
+<!-- 
 				<div class="media-container">
 					<div class="shirt-picture ip-page">
 						<span>
 							<img src="<?php echo $technology["img"]; ?>" alt="<?php echo $technology["name"]; ?>">
 						</span>
 					</div>
-				</div>
+				</div> -->
+
+								<a href="contact.php?id=<?php echo $technology["id#"];?>">
+				<button id="ip-contact">Inquire about this technology</button></a>
 
 
 

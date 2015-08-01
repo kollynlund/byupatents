@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
 }
 ?><?php 
-$pageTitle = "Contact Mike";
+$pageTitle = "Contact BYU";
 $section = "contact";
 include('inc/header.php'); ?>
 
@@ -71,12 +71,15 @@ include('inc/header.php'); ?>
             <h1>Contact</h1>
 
             <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
-                <p>Thanks for the email! We&rsquo;ll be in touch shortly!</p>
+                <p class="thank-you-text">Thanks for the email! We&rsquo;ll be in touch shortly!</p>
+                <a href="technologies.php"><button class="contact-thanks">Find more technologies</button></a>
             <?php } else { ?>
 
                 <p class="contact-text">We&rsquo;d love to hear from you! Complete the form to send me an email.</p>
 
-                <form method="post" action="contact.php">
+
+
+                <form class="contact-form" method="post" action="contact.php">
 
                     <table>
                         <tr>
@@ -113,6 +116,11 @@ include('inc/header.php'); ?>
                             </td>
                         </tr>                   
                     </table>
+
+                    <p class="contact-text-sm">* Please enter the ID # of the technologies you are interested in.</p>
+
+
+
                     <input type="submit" value="Send">
 
                 </form>

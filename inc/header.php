@@ -19,14 +19,12 @@
 
 		
 
-			<h1 class="branding-title"><a href="index.php"></a></h1>
+			<a href="index.php"><h1 class="branding-title"></h1></a>
 
 			<ul class="nav">
 				<li class="nav-item patents <?php if ($section == "patents") { echo "on"; } ?>"><a href="technologies.php">Technologies</a></li>
-				<li class="nav-item contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
-<!-- 				<li class="resources <?php if ($section == "resources") { echo "on"; } ?>"><a href="resources.php">Resources</a></li> -->
-				<li class="nav-item about <?php if ($section == "about") { echo "on"; } ?>"><a href="about.php">About</a></li> 
-				<!-- <li class="cart"><a target="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;business=Q6NFNPFRBWR8S&amp;display=1">Shopping Cart</a></li> -->
+				<li class="nav-item about <?php if ($section == "resources") { echo "on"; } ?>"><a href="resources.php">Resources</a></li> 				
+				<li class="nav-item contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact Us</a></li>
 			</ul>
 
 		

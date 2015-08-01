@@ -29,36 +29,6 @@ elseif (isset($_GET["s"])) {
 	}
 } ?>
 
-<!-- <div class="patent-filter">
-	<h1>Filter Results</h1>
-	<input type="search">
-			<ul class="list">
-			    <li class="list__item">
-			      <label class="label--checkbox">
-			          <input type="checkbox" class="checkbox" checked>
-			            Medical Devices
-			      </label>
-			    </li>
-			    <li class="list__item">
-			      <label class="label--checkbox">
-			          <input type="checkbox" class="checkbox">
-			            Software
-			      </label>
-			    </li>
-			    <li class="list__item">
-			      <label class="label--checkbox">
-			          <input type="checkbox" class="checkbox">
-			            Manufacturing
-			      </label>
-			    </li>
-			    <li class="list__item">
-			      <label class="label--checkbox">
-			          <input type="checkbox" class="checkbox">
-			            Biology
-			      </label>
-			    </li>
-			</ul>
-<div> -->
 
 
 
@@ -77,25 +47,23 @@ elseif (isset($_GET["s"])) {
 
 
 			<div class="search-container">
-
-			<h1>Search</h1>
+				<div class="group"><a id="clear-search" href="technologies.php">Clear Search</a></div>
 
 			<form method="get">
 				<?php // pre-populate the current search term in the search box; ?>
 				<?php // if a search hasn't been performed, then that search term ?>
 				<?php // will be blank and the box will look empty ?>
-				<input type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
+				<div class="group"><input class="search-box" placeholder="Search technologies..." type="text" name="s" value="<?php echo htmlspecialchars($search_term); ?>">
 				<div class="select-style">
 				  <select name="c" value ="<?php $placeholder?>">
-				    <option value="">Filter by category</option>
-				    <option value="">- All categories -</option>
+				    <option value="">All categories</option>
 				    <option value <?php if ($category == 'engineering') { ?>selected<?php }; ?>="engineering">Engineering</option>
 				    <option value <?php if ($category == 'software') { ?>selected<?php }; ?>="software">Software</option>
 				    <option value <?php if ($category == 'biology') { ?>selected<?php }; ?>="biology">Biology</option>
 				    <option value <?php if ($category == 'medical') { ?>selected<?php }; ?>="medical">Medical</option>
 				  </select>
 				</div>
-				<input type="submit" value="Go">
+				<input id="search-go" type="submit" value="Update Search"></div>
 			</form>
 
 			<?php // if a search has been performed ... ?>
@@ -115,7 +83,7 @@ elseif (isset($_GET["s"])) {
 						?>	
 					</ul>
 				<?php elseif($search==True): ?>
-				<p>No products were found matching that search term.</p>
+				<p class="warning"><i class="fa fa-exclamation-circle"></i> No technologies were found matching that search term.</p>
 				<?php foreach($technologies as $technology_id => $technology) { 
 					echo get_list_view_html($technology_id,$technology);
 				}?>

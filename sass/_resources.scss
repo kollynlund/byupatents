@@ -1,0 +1,12 @@
+
+
+.wrapper #resources-title ~ li {
+	margin-bottom: .2em;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    &:hover {
+      overflow: inherit;
+      white-space: inherit;
+  }	
+}
