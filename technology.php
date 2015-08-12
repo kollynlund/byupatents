@@ -2,8 +2,8 @@
 
 if (isset($_GET["id"])) {
 	$technology_id = $_GET["id"];
-	if (isset($technologies[$technology_id])) {
-		$technology = $technologies[$technology_id];
+	if (isset(get_products_all()[$technology_id])) {
+		$technology = get_products_all()[$technology_id];
 	}
 }
 if (!isset($technology)) {
@@ -35,9 +35,10 @@ include("inc/header.php"); ?>
 
 				<div class="links-container">
 					<p class="links-txt">Links and Resources</p>
-					<?php foreach($technology["links"] as $link) { ?>
+
+					<?php if(!empty($technology["links"])): foreach($technology["links"] as $link) { ?>
 					<li><a class="ip-link" href="<?php echo $link; ?>"><?php echo $link; ?> </a></li>
-					<?php } ?>
+					<?php } endif;?>
 				</div>
 <!-- 
 				<div class="media-container">

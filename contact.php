@@ -4,6 +4,7 @@ if (isset($_GET["id"])) {
     $technology_id = $_GET["id"];
 }
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    try{
     include_once('inc/phpmailer/class.phpmailer.php');
     require_once('inc/phpmailer/class.smtp.php');
 
@@ -14,28 +15,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     if ($name == "" OR $email == "" OR $message == "") {
-        echo "You must specify a value for name, email address, and message.";
-        exit;
+        throw new Exception("You must specify a value for name, email address, and message.");
     }
 
     foreach( $_POST as $value ){
         if( stripos($value,'Content-Type:') !== FALSE ){
-            echo "There was a problem with the information you entered.";    
-            exit;
+        throw new Exception("There was a problem with the information you entered.");    
         }
     }
 
     if ($_POST["address"] != "") {
-        echo "Your form submission has an error.";
-        exit;
+        throw new Exception("Your form submission has an error.");
     }
 
     require_once("inc/phpmailer/class.phpmailer.php");
     $mail = new PHPMailer();
 
     if (!$mail->ValidateAddress($email)){
-        echo "You must specify a valid email address.";
-        exit;
+        throw new Exception("You must specify a valid email address.");
     }
 
     $email_body = "";
@@ -52,12 +49,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->MsgHTML($email_body);
 
     if(!$mail->Send()) {
-      echo "There was a problem sending the email: " . $mail->ErrorInfo;
-      exit;
+      throw new Exception("There was a problem sending the email: " . $mail->ErrorInfo);
     }
 
     header("Location: contact.php?status=thanks");
     exit;
+} catch (Exception $e) {
+    $message = $e->getMessage();
+}
 }
 ?><?php 
 $pageTitle = "Contact BYU";
@@ -77,6 +76,9 @@ include('inc/header.php'); ?>
 
                 <p class="contact-text">We&rsquo;d love to hear from you! Complete the form to send me an email.</p>
 
+                <?php if (isset($message)) {
+                    echo $message;
+                } ?>
 
 
                 <form class="contact-form" method="post" action="contact.php">
@@ -87,7 +89,7 @@ include('inc/header.php'); ?>
                                 <label for="name">Name</label>
                             </th>
                             <td>
-                                <input type="text" name="name" id="name">
+                                <input type="text" name="name" id="name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : "";?>">
                             </td>
                         </tr>
                         <tr>
@@ -95,7 +97,7 @@ include('inc/header.php'); ?>
                                 <label for="email">Email</label>
                             </th>
                             <td>
-                                <input type="text" name="email" id="email">
+                                <input type="text" name="email" id="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : "";?>">
                             </td>
                         </tr>
                         <tr>
@@ -103,7 +105,7 @@ include('inc/header.php'); ?>
                                 <label for="message">Message</label>
                             </th>
                             <td>
-                                <textarea name="message" id="message"></textarea>
+                                <textarea name="message" id="message"><?php echo isset($_POST['message']) ? $_POST['message'] : "";?></textarea>
                             </td>
                         </tr> 
                         <tr style="display: none;">

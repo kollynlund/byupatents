@@ -7,10 +7,10 @@ $search=False;
 $allresults = get_products_all();
 $search_term = "";
 if ($_GET["c"] != '') {
-	$search=True;
 	$placeholder = $_GET["c"];
 	$category = trim($_GET["c"]);
 	if ($category != ""){
+		$search=True;
 		$cresults = get_category_search($category);
 		$products = $cresults;
 		if (isset($_GET["s"])) {
@@ -22,9 +22,9 @@ if ($_GET["c"] != '') {
 	}
 }
 elseif (isset($_GET["s"])) {
-	$search=True;
 	$search_term = trim($_GET["s"]);
 	if ($search_term != "") {
+		$search=True;
 		$products = get_products_search($search_term);
 	}
 } ?>
@@ -77,18 +77,18 @@ elseif (isset($_GET["s"])) {
 						<?php
 							foreach ($products as $product_id => $product) {
 	                          	$id_number = $product['id#'];
-	                          	$array_space = searchForID($id_number, $technologies);
+	                          	$array_space = searchForID($id_number, get_products_all());
 	                          	echo get_list_view_html($array_space,$product);
 							}
 						?>	
 					</ul>
 				<?php elseif($search==True): ?>
 				<p class="warning"><i class="fa fa-exclamation-circle"></i> No technologies were found matching that search term.</p>
-				<?php foreach($technologies as $technology_id => $technology) { 
+				<?php foreach(get_products_all() as $technology_id => $technology) { 
 					echo get_list_view_html($technology_id,$technology);
 				}?>
 				<?php else:?>
-					<?php foreach($technologies as $technology_id => $technology) { 
+					<?php foreach(get_products_all() as $technology_id => $technology) { 
 						echo get_list_view_html($technology_id,$technology);
 						}?>
 			<?php endif; ?>
