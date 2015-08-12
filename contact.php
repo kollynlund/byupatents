@@ -76,9 +76,9 @@ include('inc/header.php'); ?>
 
                 <p class="contact-text">We&rsquo;d love to hear from you! Complete the form to send me an email.</p>
 
-                <?php if (isset($message)) {
+                <div class="error"><?php if (isset($message)) {
                     echo $message;
-                } ?>
+                } ?></div>
 
 
                 <form class="contact-form" method="post" action="contact.php">

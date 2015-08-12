@@ -562,18 +562,19 @@ table {
   margin-left: 0; }
 
 form[method="post"] {
-  width: 375px;
+  width: 72%;
+  max-width: 35em;
   margin: 34px auto; }
-  @media (max-width: 400px) {
+  @media (max-width: 740px) {
     form[method="post"] {
-      width: 340px; } }
+      width: 100%; } }
 
 form tr {
   border: 1px solid #CCC;
   background: #f4f3f2; }
 
 form table {
-  width: 375px;
+  width: 100%;
   margin-bottom: 16px; }
   @media (max-width: 400px) {
     form table {
@@ -610,6 +611,12 @@ input[type="submit"], .ip-contact {
   @media (max-width: 400px) {
     input[type="submit"], .ip-contact {
       width: 340px; } }
+
+.error {
+  text-align: center;
+  color: #FF533D;
+  font-size: 1em;
+  font-weight: 600; }
 
 .contact-thanks {
   text-align: center;
@@ -658,7 +665,8 @@ input[type="submit"], .ip-contact {
     text-decoration: none; }
 
 .contact-text-sm {
-  font-size: .9em; }
+  font-size: .9em;
+  text-align: center; }
 
 .wrapper-about {
   width: 85%;
