@@ -22,7 +22,7 @@ include('inc/header.php'); ?>
 			
 		</div>
 		<div class="feature-wrapper">
-			<a href="contact.php?id=<?php echo $technology["id#"];?>"><button id="ip-contact" style="margin-top: 0em; margin-bottom: 1em;">SEARCH ALL TECHNOLOGIES</button></a>
+			<a href="technologies.php"><button id="ip-contact" style="margin-top: 0em; margin-bottom: 1em;">SEARCH ALL TECHNOLOGIES</button></a>
 
 			<?php include("inc/featured-technologies-home.php"); ?>
 			<ul class="products featured-container">
