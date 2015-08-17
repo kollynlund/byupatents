@@ -19,7 +19,7 @@ include("inc/header.php"); ?>
 
 			<div class="wrapper">
 
-				<div class="breadcrumb"><a href="technologies.php">Technologies</a> &gt; <?php echo $technology["name"]; ?></div>
+				<div class="breadcrumb"><a href="index.php">Home</a> &gt; <a href="technologies.php">Technologies</a> &gt; <?php echo $technology["id#"]; ?></div>
 
 				<div class="shirt-details">
 					<div class="group">
@@ -49,8 +49,7 @@ include("inc/header.php"); ?>
 					</div>
 				</div> -->
 
-								<a href="contact.php?id=<?php echo $technology["id#"];?>">
-				<button id="ip-contact">Inquire about this technology</button></a>
+				<a href="contact.php?id=<?php echo $technology["id#"];?>"><button id="ip-contact">Inquire about this technology</button></a>
 
 
 

@@ -1,5 +1,5 @@
 <?php include("inc/technologies-data.php"); ?><?php 
-$pageTitle = "BYU's Full Catalog of Technologies";
+$pageTitle = "Technologies | BYU Tech Transfer";
 $section = "patents";
 include('inc/header.php'); 
 
@@ -36,9 +36,14 @@ elseif (isset($_GET["s"])) {
 	<div class="section shirts page">
 
 		<div class="wrapper">
+			<div class="breadcrumb"><a href="index.php">Home</a> &gt; <a href="technologies.php">Technologies</a> </div>
 
-			<h1>BYU&rsquo;s Full List of Technologies</h1>
-			<p>Here is BYU's list of available Technologies. Click on any patent for more info. Look at our <a href="featured-technologies.php">featured technologies</a> or just browse the list.</p>
+			<h1 style="margin-bottom: 0em;">BYU&rsquo;s Full List of Technologies</h1>
+			<p style="text-align: center; margin-top: 0px;"><a class="featured-tech-pdf" href="http://techtransfer.byu.edu/Promising-Technologies.pdf" target="_blank" style="padding-top: 0px; font-size: 1em; text-align: center;">Download the list of promising technologies (pdf)</a></p>
+
+
+
+			<p>Here is BYU's list of available technologies. Filter throught the technologies by category or by searching keywords. Click on any patent for more info.</p>
 
 
 

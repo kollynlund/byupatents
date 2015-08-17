@@ -59,15 +59,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 }
 ?><?php 
-$pageTitle = "Contact BYU";
+$pageTitle = "Contact | BYU Tech Transfer";
 $section = "contact";
 include('inc/header.php'); ?>
 
     <div class="section page">
 
         <div class="wrapper">
-
+<div class="breadcrumb"><a href="index.php">Home</a> &gt; <a href="contact.php">Contact</a>
             <h1>Contact</h1>
+            
 
             <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
                 <p class="thank-you-text">Thanks for the email! We&rsquo;ll be in touch shortly!</p>

@@ -28,6 +28,7 @@ include("inc/header.php"); ?>
 		<div class="wrapper">
 
 			<h1>Search</h1>
+			
 
 			<form method="get">
 				<?php // pre-populate the current search term in the search box; ?>

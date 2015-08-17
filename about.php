@@ -1,12 +1,19 @@
 <?php 
-$pageTitle = "BYU Tech Transfer";
+$pageTitle = "About | BYU Tech Transfer";
 $section = "about";
 include('inc/header.php'); ?>
-<div class="section page"> 
 
-			<div class="wrapper-about">
+<div class="section page"> 
+	<div class="wrapper">
+	<div class="breadcrumb"><a href="index.php">Home</a> &gt; <a href="about.php">About</a> </div>
+
+			
 
 				<h1>About</h1>
+				
+				
+				</div>
+				<div class="wrapper-about">
 
 				<img id="about-img" src="img/about.jpg">
 

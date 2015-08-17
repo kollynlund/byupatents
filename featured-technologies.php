@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = "BYU Tech Transfer";
+$pageTitle = "Featured Tech | BYU Tech Transfer";
 $section = "home";
 include('inc/header.php'); ?>
 

@@ -80,7 +80,9 @@
         margin: 0 0 0 2.5em;
 
     }
-
+    @media (max-width: 747px) {
+        font-size: .9em;
+    } 
     @media (max-width: 670px) {
         width: 100vw;
         background-color: #555;
@@ -98,9 +100,9 @@
     text-decoration: underline;
 }
 
-.header .nav li a:hover, .header .nav li a:active {
-    color: #FFE200;
-}
+// .header .nav li a:hover, .header .nav li a:active {
+//     color: #FFE200;
+// }
 
 .header .nav li.shirts a {
     background-position: 0px 0px;
@@ -145,7 +147,10 @@
     } 
     @media (max-width: 566px) {
         background-size: 170%;
-    }     
+    } 
+    @media (max-width: 400px) {
+        height: 200px;
+    }       
 }
 
 
@@ -164,28 +169,53 @@
     border-radius: 0px;
     border: 3px solid #029af1;
     border: 2px solid #ddd;
-
-    background-color: #fff;
+    background-color: rgba(245, 245, 245, .9);
     z-index: 0;
     @media (max-width: 577px) {
         left: 0px;
     }
     @media (max-width: 400px) {
-        left: -20px !important;
-        width: 350px;
+        left: 0px !important;
+        width: 100%;
+        top: 1.5em;
     }
 
 }
+.section.banner .btn-txt {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    @media (max-width: 577px) {
+        padding: .4em;
+    }
+}
+
 .section.banner a {
     padding: 15px;
     display: block;
     text-decoration: none;
-/*    background: url(../img/banner-link-arrow.png) 100% 50% no-repeat;*/
-    color: #FFF;
+    @media (max-width: 577px) {
+        padding: .4em;
+    }
 }
 .section.banner a:hover {
-    color: #ffe200;
+    text-decoration: none;
 }
+
+a[href="http://techtransfer.byu.edu/Promising-Technologies.pdf"]:hover {
+    text-decoration: underline;
+}
+
+.featured-tech-pdf {
+    text-align: center;
+    font-size: 1.2em;
+    // &:after {
+    //     content: url(../img/pdf.png);
+    //     margin-left: .4em;
+    // }
+}
+
 .section.banner h2 {
     font-size: 18px;
     font-weight: normal;

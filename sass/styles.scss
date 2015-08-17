@@ -31,7 +31,12 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
 
 .wrapper a:visited, .wrapper a {
     color: #6678FF;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
+
 
 .patent-info:visited, .patent-info {
     color: #676767 !important;
@@ -87,6 +92,11 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
     @media (max-width: 670px) {
     	justify-content: center;
     }
+    @media (max-width: 670px) {
+        display: block;
+        margin: 0 auto;
+
+    }
 }
 .section.shirts ul.products {
     margin: 0 0 -17px 0;
@@ -102,7 +112,14 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
     text-align: center;
     padding: 14px;
     background: #f0eeed;
-    margin: 0 10px 17px 0px;   
+    margin: 0 10px 17px 0px; 
+    @media (max-width: 670px) {
+        display: block;
+        margin: 0 auto;
+         margin-bottom: 1em ;
+         width: 80%;
+    }    
+
 }
 // .section.shirts ul.products li a:hover:after {
 //     content: url('../img/search.png');
@@ -204,18 +221,10 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
-    padding: 0px 0 1.8em;
+    padding: 0px;
 }
 
-.featured-tech-pdf {
-    float: right;
-    font-size: .9em;
-    margin-top: 1em;
-    &:after {
-        content: url(../img/pdf.png);
-        margin-left: .4em;
-    }
-}
+
 
 .note-designer {
     font-family: Georgia, serif;
@@ -281,6 +290,9 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
     display: block !important;
     line-height: 1.2em;
     text-transform: uppercase !important;
+    &:hover {
+        text-decoration: none !important;
+    }    
     @media (max-width: 500px) {
         font-size: 1.3em !important; 
     }
@@ -294,6 +306,9 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
     margin-bottom: 0px !important;
     margin-right: 1em !important;
     width: inherit !important;
+    &:hover {
+        text-decoration: none !important;
+    }    
     @media (max-width: 500px) {
         font-size: .8em !important; 
         margin-top: 0px !important;
@@ -303,6 +318,9 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
 .patent-info {
     text-decoration: none;
     color: inherit;
+    &:hover {
+        text-decoration: none !important;
+    }
 }
 
 

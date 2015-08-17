@@ -124,14 +124,17 @@
 }
 
 .footer a {
-  margin: 0 10px;
   color: #6b6a69;
-  margin: 0 10px;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
   }
 }
+
+.footer p {
+  margin: 0 5px;
+}
+
 
 .footer li:first-child a {
   margin-left: 4px;
@@ -163,3 +166,12 @@
   }
 }  
 
+a[href="https://www.youtube.com/channel/UCez0aJJmX2JNxDuE3IJLakA"] i {
+  font-size: 1.5em;
+  width: 1.1em;
+}
+
+a[href="https://www.linkedin.com/pub/byu-technology-transfer/82/48b/a97"] i {
+  font-size: 1.5em;
+  width: 1.1em;
+}

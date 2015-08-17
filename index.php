@@ -6,20 +6,24 @@ include('inc/header.php'); ?>
 	<div class="section banner">
 		<div class="wrapper">
 			<div class="button">
-				<a href="technologies.php">
-					<h2>Welcome to BYU Tech Transfer</h2>
+				<div class="btn-txt">
+					<h2 style="font-size: 1.3em">Welcome to BYU Tech Transfer</h2>
 					<p>We create and license technologies in hopes of bettering mankind</p>
-				</a>
+				</div>
+					<p><a class="featured-tech-pdf" href="http://techtransfer.byu.edu/Promising-Technologies.pdf" target="_blank" style="padding-top: 0px;">Download the list of promising technologies (pdf)</a></p>
+				
 			</div>
 		</div>
 	</div>
 
 	<div class="section shirts latest">
 		<div class="wrapper">
-			<h2 class="home-title">BYU&rsquo;s Featured Technologies</h2>
-			<p><a href="featured-technologies.php">Click here for the full list of featured technologies</a></p>
+			<h2 class="home-title"></h2>
+			
 		</div>
 		<div class="feature-wrapper">
+			<a href="contact.php?id=<?php echo $technology["id#"];?>"><button id="ip-contact" style="margin-top: 0em; margin-bottom: 1em;">SEARCH ALL TECHNOLOGIES</button></a>
+
 			<?php include("inc/featured-technologies-home.php"); ?>
 			<ul class="products featured-container">
 				<?php foreach($technologies as $technology_id => $technology) { 
@@ -27,6 +31,7 @@ include('inc/header.php'); ?>
 					}
 				?>
 			</ul>
+			
 		</div>
 	</div>
 

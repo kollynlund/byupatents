@@ -12,7 +12,7 @@
 				<p>Provo, UT 84602</p>
 				<hr>
 				<p style="margin-bottom: .3em;">Telephone:</p>
-				<p>(801) 422-6266</p>
+				<p>Phone: (801) 422-6266</p>
 				<p>Fax: (801) 422-0463</p>
 				<hr>
 				<p style="margin-bottom: .3em;">Staff:</p>
@@ -26,12 +26,14 @@
 
 			<div class="column-center footer-column">
 				<h3 class="footer-title">Favorites</h3>
-				<p><a href="featured-technologies.php">Featured Technologies</a></p>
+				<p><a href="index.php">Home Page</a></p>
 				<p><a href="technologies.php">Full List of Technologies</a></p>
-				<p><a href="about.php">About us</a></p>
 				<p><a href="resources.php">Resources</a></p>
 				<p><a href="contact.php">Contact us</a></p>
-				<p><a href="http://home.byu.edu/home/">BYU Home Page</a></p>
+				<p><a href="about.php">About us</a></p>
+				<p><a href="http://home.byu.edu/home/" target="_blank">BYU Home Page</a></p>
+				
+				
 				<hr>
 				<p><a href="https://www.youtube.com/channel/UCez0aJJmX2JNxDuE3IJLakA"><i class="fa fa-youtube-play"></i> YouTube</a></p>
 				<p><a href="https://www.linkedin.com/pub/byu-technology-transfer/82/48b/a97"><i class="fa fa-linkedin"></i> Linkedin</a></p>
