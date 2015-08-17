@@ -640,7 +640,7 @@ input[type="submit"], .ip-contact {
   padding: 14px; }
   @media (max-width: 400px) {
     input[type="submit"], .ip-contact {
-      width: 340px; } }
+      width: 100%; } }
 
 .error {
   text-align: center;
@@ -940,10 +940,12 @@ body {
   width: 100%; }
 
 .breadcrumb {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   padding: 0px; }
+  @media (max-width: 500px) {
+    .breadcrumb {
+      margin-bottom: 1em !important; } }
 
 .note-designer {
   font-family: Georgia, serif;

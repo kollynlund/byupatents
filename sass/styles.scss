@@ -218,10 +218,12 @@ body {font-family: Arial, 'Oswald', sans-serif; background:#f0eeed; color: #6767
 }
 
 .breadcrumb {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
     padding: 0px;
+    @media (max-width: 500px) {
+        margin-bottom: 1em !important; 
+    }
 }
 
 

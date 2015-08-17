@@ -66,7 +66,7 @@ include('inc/header.php'); ?>
     <div class="section page">
 
         <div class="wrapper">
-<div class="breadcrumb"><a href="index.php">Home</a> &gt; <a href="contact.php">Contact</a>
+<div class="breadcrumb"><a href="index.php">Home</a> &gt; <a href="contact.php">Contact</a></div>
             <h1>Contact</h1>
             
 
