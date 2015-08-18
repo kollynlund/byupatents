@@ -32,7 +32,7 @@ include("inc/header.php"); ?>
 
 
 
-
+				<?php if (!empty($technology["links"])): ?>
 				<div class="links-container">
 					<p class="links-txt">Links and Resources</p>
 
@@ -40,6 +40,7 @@ include("inc/header.php"); ?>
 					<li><a class="ip-link" href="<?php echo $link; ?>"><?php echo $link; ?> </a></li>
 					<?php } endif;?>
 				</div>
+				<?php endif; ?>
 <!-- 
 				<div class="media-container">
 					<div class="shirt-picture ip-page">
