@@ -7,10 +7,10 @@ include('inc/header.php'); ?>
 		<div class="wrapper">
 			<div class="button">
 				<div class="btn-txt">
-					<h2 style="font-size: 1.3em">Welcome to BYU Tech Transfer</h2>
+					<h2 style="font-size: 1.3em">Welcome to BYU Technology Transfer</h2>
 					<p>We create and license technologies in hopes of bettering mankind</p>
 				</div>
-					<p><a class="featured-tech-pdf" href="http://techtransfer.byu.edu/Promising-Technologies.pdf" target="_blank" style="padding-top: 0px;">Download the list of promising technologies (pdf)</a></p>
+					<p><a class="featured-tech-pdf" href="http://techtransfer.byu.edu/Promising-Technologies.pdf" target="_blank" style="padding-top: 0px;"><i class="fa fa-angle-double-right"></i> Promising Technologies (pdf)</a></p>
 				
 			</div>
 		</div>
