@@ -76,6 +76,9 @@
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap; 
+    &:hover {
+        color: yellow;
+    }
     @media (max-width: 800px) {
         margin: 0 0 0 2.5em;
 
@@ -167,10 +170,10 @@
     width: 400px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    border: 3px solid #029af1;
-    border: 2px solid #ddd;
-    background-color: rgba(245, 245, 245, .9);
+    border: 3px solid #ddd;
+    background-color: white;
     z-index: 0;
+    // padding: .5em 0 0 .5em;
     @media (max-width: 577px) {
         left: 0px;
     }

@@ -319,6 +319,8 @@ table {
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap; }
+  .header .nav li a:hover {
+    color: yellow; }
   @media (max-width: 800px) {
     .header .nav li a {
       margin: 0 0 0 2.5em; } }
@@ -395,9 +397,8 @@ table {
   width: 400px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-  border: 3px solid #029af1;
-  border: 2px solid #ddd;
-  background-color: rgba(245, 245, 245, 0.9);
+  border: 3px solid #ddd;
+  background-color: white;
   z-index: 0; }
   @media (max-width: 577px) {
     .section.banner .button {
