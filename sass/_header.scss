@@ -175,10 +175,16 @@
     z-index: 0;
     // padding: .5em 0 0 .5em;
     @media (max-width: 577px) {
-        left: 0px;
+        left: -20px;
     }
-    @media (max-width: 400px) {
-        left: 0px !important;
+    @media (max-width: 560px) {
+        top: 3em;
+
+    }
+
+
+    @media (max-width: 440px) {
+        left: 0px;
         width: 100%;
         top: 1.5em;
     }
@@ -225,6 +231,9 @@ a[href="http://techtransfer.byu.edu/Promising-Technologies.pdf"]:hover {
     margin: 0;
     line-height: 1.5;
     color: #111;
+    @media (max-width: 440px) {
+        font-size: 1.125em !important;
+    }
 }
 .section.banner p {
     color: #666;

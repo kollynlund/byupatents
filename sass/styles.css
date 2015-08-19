@@ -402,10 +402,13 @@ table {
   z-index: 0; }
   @media (max-width: 577px) {
     .section.banner .button {
-      left: 0px; } }
-  @media (max-width: 400px) {
+      left: -20px; } }
+  @media (max-width: 560px) {
     .section.banner .button {
-      left: 0px !important;
+      top: 3em; } }
+  @media (max-width: 440px) {
+    .section.banner .button {
+      left: 0px;
       width: 100%;
       top: 1.5em; } }
 
@@ -442,6 +445,9 @@ a[href="http://techtransfer.byu.edu/Promising-Technologies.pdf"]:hover {
   margin: 0;
   line-height: 1.5;
   color: #111; }
+  @media (max-width: 440px) {
+    .section.banner h2 {
+      font-size: 1.125em !important; } }
 
 .section.banner p {
   color: #666;
